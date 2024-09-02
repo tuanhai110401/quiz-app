@@ -1,0 +1,139 @@
+.login-Wrapper {
+    height: 100vh;
+    background: url('../../assets/bg-login.jpg') no-repeat;
+    background-size: cover;
+    user-select: none;
+
+    .login-content {
+        background-color: #fff;
+        border-radius: 24px;
+        width: 580px;
+        height: 600px;
+        position: relative;
+        top: 12%;
+        left: 50%;
+        padding: 4% 8%;
+
+        .login-title {
+            margin-bottom: 24px;
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .login-form {
+            .login-label {
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 12px;
+            }
+
+            .login-input {
+                display: block;
+                border: 1px solid #d9d9d9;
+                border-radius: 12px;
+                width: 320px;
+                padding: 8px;
+                margin: 8px 0;
+            }
+
+            .login-input:focus {
+                outline: none;
+                border: 1px solid #198754;
+
+            }
+
+            .login-check {
+                width: 16px;
+                height: 16px;
+                margin-right: 12px;
+                margin-bottom: 12px;
+            }
+
+
+        }
+
+        .login-btn {
+            width: 320px;
+            font-size: 16px;
+            padding: 12px;
+            border-radius: 12px;
+            margin-top: 12px;
+            font-weight: bold;
+
+            &:disabled {
+                cursor: wait;
+                pointer-events: auto;
+                opacity: 1;
+                background-color: #19875482;
+
+            }
+        }
+
+        .login-sub {
+            position: relative;
+            margin: 8px 0;
+        }
+
+        .login-sub::before {
+            content: "";
+            height: 1px;
+            background-color: #c4c4c4;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            width: 50px;
+            height: 1px;
+            margin-right: 28px;
+        }
+
+        .login-sub::after {
+            content: "";
+            height: 1px;
+            background-color: #c4c4c4;
+            position: absolute;
+            top: 50%;
+            width: 50px;
+            height: 1px;
+            margin-left: 18px;
+        }
+
+        .login-desc {
+            margin-top: 12px;
+
+            span {
+                color: #198754;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .register {
+        padding: 2% 8%;
+
+        .login-title {
+            margin-bottom: 12px;
+        }
+
+        .login-sub {
+            margin: 4px 0;
+        }
+
+        .login-btn {
+            margin-top: 4px;
+
+            &:disabled {
+                cursor: wait;
+                pointer-events: auto;
+                opacity: .4;
+                color: #198754;
+            }
+        }
+
+
+
+        .login-label {
+            margin-top: 8px;
+        }
+    }
+}

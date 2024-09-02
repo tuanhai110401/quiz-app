@@ -1,0 +1,27 @@
+.hero-wrapper {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.hero-video {
+    flex: 0.5;
+}
+
+.hero-context {
+    flex: 0.5;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+
+    .hero-title {
+        font-size: 70px;
+    }
+
+    .hero-info {
+        font-size: 24px;
+    }
+}

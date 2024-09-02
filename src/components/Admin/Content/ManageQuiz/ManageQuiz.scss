@@ -1,0 +1,29 @@
+.manage-quiz {
+    margin-top: 12px;
+    margin-left: 24px;
+    background-color: #fff;
+    height: 80vh;
+    padding: 24px;
+    border-radius: 12px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.table {
+
+    .table-row {
+        .table-img {
+            height: 80px;
+            width: 80px;
+            border: 1px solid #ccc;
+        }
+    }
+}
+
+.table-hover {
+    &:hover {
+        background-color: aqua;
+    }
+
+    
+}
